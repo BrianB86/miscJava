@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Choose">Search for a Photo.</string>
+    <string name="app_name">PhotoAlbumDroid</string>
+    <string name="search_text">Search</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="location">Use location searching</string>
+    <string name="location_small">Check to search by location</string>
+    <string name="person">Use person searching</string>
+    <string name="person_small">Check to search by person</string>
+    <string name="take_picture">Take a Picture</string>
+    <string-array name="menu">
+    <item>Edit Album Name</item>
+    <item>Delete</item>
+    <item>Open</item>
+    <item>Create Album</item>
+    <item>Take a Picture</item>
+    <item>Search</item>
+    </string-array>
+    <string-array name="photomenu">
+    <item>Edit Photo</item>
+    <item>Delete</item>
+    <item>Add Photo</item>
+    <item>Take a Picture</item>
+    <item>Search</item>
+    </string-array>
+</resources>

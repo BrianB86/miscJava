@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:id="@+id/PhotoLinearLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<TextView
+        android:id="@+id/Photo_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@+id/Photo_label"
+        android:textSize="20px" >
+    </TextView>
+   <TextView 
+   android:id="@+id/empty" 
+   android:layout_width="wrap_content"         
+   android:layout_height="wrap_content" 
+   android:text="No Results But would you like to take a picture?">
+   		<Button
+   			android:text="@string/take_picture"
+   			android:id="@+id/pictureButton"
+   			android:layout_width="wrap_content"
+   			android:layout_height="wrap_content">
+   		</Button>
+   </TextView>
+	<Gallery
+		xmlns:android="http://schemas.android.com/apk/res/android"
+  		android:id="@+id/PhotoGallery"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+  </Gallery>
+<ImageView
+	android:id="@+id/PhotoViewer"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+</ImageView>
+</LinearLayout>
